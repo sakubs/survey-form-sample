@@ -1,4 +1,5 @@
 # Sample Survey Form
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/sakubs/pen/wvwydqv](https://codepen.io/sakubs/pen/wvwydqv).
+This is a sample form for an English teaching website.
 
+It's just a sample of my work.
  
