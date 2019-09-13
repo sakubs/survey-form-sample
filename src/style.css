@@ -1,0 +1,118 @@
+html, body {
+  background-color: #2e151b;
+  font-size: 10px;
+}
+
+main {
+  color: #f1f1f1;
+}
+
+/* Formatting for the checkbox and radio button labels  */
+label {
+  font-size: 1.4em;
+}
+
+/* Input field formatting */
+.inputField {
+  height: auto;
+  margin: 0.1em 0em 0.5em 0em;
+  width: 240px;
+}
+
+/* Input label formatting */
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  margin: 1em 0em 0.5em 0em;
+}
+
+/* Formatting for the motivation and personal information input
+ * containers */
+.motivation, .personal {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Container for the area around the submit button */
+.submitDev {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the checkboxes */
+.tickLabel, .tickInput {
+  display: in-line;
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
+
+/* Aligns the radio buttons and labels */
+input[type="radio"], .radioLabel {
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-top: -1px;
+  padding-bottom: 0.5em;
+  vertical-align: middle;
+}
+
+#comments-input {
+  height: 10em;
+  width: 95%;
+  resize: vertical;
+}
+
+/* Formatting for the description of the survey */
+#description {
+  font-size: 2em;
+}
+
+/* A little box to contain the form */
+#form-div {
+  background-color: #2f4454;
+  border-radius: 1em;
+  margin: auto;
+  max-width: 75%;
+  padding: 2em;
+}
+
+/* Formatting for the submit button */
+#submit {
+  background-color: #367e6f;
+  border-radius: 0.5em;
+  color: #fff;
+  margin: 1em;
+}
+
+/* The main title formatting */
+#title {
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
